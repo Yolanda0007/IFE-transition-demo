@@ -7,9 +7,9 @@
           <p class="linear">欢迎参加</p>
           <a href="sign-in">点击报名</a>
           <div class="top border"></div>
-          <div class="bottom border"></div>
-          <div class="left border"></div>
-          <div class="right border"></div>
+        <div class="bottom border"></div>
+        <div class="left border"></div>
+        <div class="right border"></div>
         </div>
 
       </div>
@@ -44,7 +44,6 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/rem.scss';
   .img-wrap{
-    width: rem(300);
     position: relative;
   }
   .overlay{
@@ -57,21 +56,7 @@ export default {
     padding: rem(20);
 
     &-content{
-      position: relative;
-      margin: rem(20);
-      padding: rem(10) 0;
     }
-    .linear{
-      background-image: -webkit-linear-gradient(left, #3498db, #f47920 10%, #d71345 20%, #f7acbc 30%,
-            #ffd400 40%, #3498db 50%, #f47920 60%, #d71345 70%, #f7acbc 80%, #ffd400 90%, #3498db);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-size: 200% 100%;
-      animation: name duration timing-function delay iteration-count direction fill-mode;
-    }
-  }
-  @keyframes identifier {
-
   }
   .border{
     position: absolute;

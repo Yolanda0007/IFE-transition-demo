@@ -67,11 +67,7 @@ export default {
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
       background-size: 200% 100%;
-      animation: name duration timing-function delay iteration-count direction fill-mode;
     }
-  }
-  @keyframes identifier {
-
   }
   .border{
     position: absolute;
