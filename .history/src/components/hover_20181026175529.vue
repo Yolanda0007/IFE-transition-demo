@@ -55,43 +55,22 @@ export default {
     padding: rem(20);
 
     &-content{
+
     }
   }
   .border{
     position: absolute;
-    background-color: red;
-    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   }
   .top{
     top: 0;
-    left: 50%;
-    width: 0;
-    height: rem(5);
   }
   .bottom{
     bottom: 0;
-    left: 50%;
-    width: 0;
-    height: rem(5);
   }
   .left{
     left: 0;
-    top: 50%;
-    height: 0;
-    width: rem(3);
   }
   .right{
     right: 0;
-    top: 50%;
-    height: 0;
-    width: rem(3);
-  }
-  .overlay:hover .top,.overlay:hover .bottom{
-    width: 100%;
-    left: 0;
-  }
- .overlay:hover .left,.overlay:hover .right{
-    height: 100%;
-    top: 0;
   }
 </style>

@@ -55,11 +55,11 @@ export default {
     padding: rem(20);
 
     &-content{
+
     }
   }
   .border{
     position: absolute;
-    background-color: red;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   }
   .top{
@@ -85,13 +85,5 @@ export default {
     top: 50%;
     height: 0;
     width: rem(3);
-  }
-  .overlay:hover .top,.overlay:hover .bottom{
-    width: 100%;
-    left: 0;
-  }
- .overlay:hover .left,.overlay:hover .right{
-    height: 100%;
-    top: 0;
   }
 </style>
