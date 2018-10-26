@@ -1,0 +1,39 @@
+<template>
+  <div class="container">
+    <div class="img-wrap hover">
+      <img src="../assets/img/back.jpg"/>
+      <div class="overlay">
+        <div class="overlay-content">
+          <p class="linear">欢迎参加百度前端技术学院</p>
+          <a href="sign-in">点击报名</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: 'hover',
+  data () {
+
+  },
+  computed: {
+
+  },
+  components: {
+
+  },
+  methods: {
+
+  },
+  beforeMount () {
+
+  },
+  mounted () {
+
+  }
+}
+</script>
+<style lang="scss" scoped>
+
+</style>
